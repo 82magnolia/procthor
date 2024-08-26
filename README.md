@@ -12,7 +12,9 @@ ProcTHOR procedurally generates interactive, diverse, and semantically plausible
 
 Install `procthor` with PyPi:
 ```bash
-pip install procthor
+conda create -n procthor python=3.9
+conda activate procthor
+pip install -r requirements.txt
 ```
 
 And then run the example script to generate a new house:
